@@ -1,0 +1,54 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	border: 3px solid black;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.moover{
+	width: 50px;
+	height: 50px;
+	background-color: orange;
+	position: relative;
+	white-space: nowrap;
+	font-family: sans-serif;
+	color: white;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	cursor: move;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	font-size: 30px;
+}
+
+.greenZone{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	opacity: 0;
+	transition: 1s all
+
+}
